@@ -1,0 +1,44 @@
+body{
+    direction: rtl;
+}
+span{
+    font-weight: 800;
+    font-size: 15px;
+}
+.container{
+    padding: 12px;
+    background-color: #1000ff38;
+    width: 375px;
+    height: 131px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.container:hover{
+    transition: ease-in-out 0.5s ;
+    border: solid 3px rgb(60, 6, 148);
+}
+.container .header{
+    border-bottom: solid 1px grey;
+    padding-bottom: 7px;
+}
+.container .header span{}
+.container .body{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.container .last-name{}
+.container .history{}
+.container .footer .addres{
+    margin-bottom: 16px;
+}
+.container .footer{
+    display: flex;
+    padding-top: 16px;
+    flex-direction: column;
+}
+.container .footer .about{
+    border-top: solid 1px grey;
+    padding-top: 6px;
+    text-align: center;
+}
